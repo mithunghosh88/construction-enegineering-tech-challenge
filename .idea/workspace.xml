@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e572e281-cdc2-4a00-8798-2dd8178d2856" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/construction-enegineering-tech-challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/dao/ConstructionEngineeringDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/dao/ConstructionEngineeringDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/enums/GeoZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/enums/ProjectCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/enums/TeamCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/exceptions/RecordNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/model/Contractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/service/ConstructionEngineeringReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/service/ConstructionEngineeringReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/service/ConstructionEngineeringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/construction/engineering/service/ConstructionEngineeringServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/construction/engineering/service/ConstructionEngineeringReportServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/construction/engineering/service/ConstructionEngineeringServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/construction/engineering/service/CustomerDataUtil.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2kIE7v1B4omFHPZbWzx5bYFEVqP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.ConstructionEngineeringReportServiceTest.testGetCustomerBasedOnContractId.executor": "Run",
+    "JUnit.ConstructionEngineeringReportServiceTest.testGetCustomerBasedOnGeoZone.executor": "Run",
+    "JUnit.ConstructionEngineeringServiceTest.testGetEntities.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.construction.engineering.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConstructionEngineeringServiceTest.testGetEntities">
+    <configuration name="ConstructionEngineeringReportServiceTest.testGetCustomerBasedOnContractId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="construction-enegineering-tech-challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.construction.engineering.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.construction.engineering.service" />
+      <option name="MAIN_CLASS_NAME" value="com.construction.engineering.service.ConstructionEngineeringReportServiceTest" />
+      <option name="METHOD_NAME" value="testGetCustomerBasedOnContractId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructionEngineeringReportServiceTest.testGetCustomerBasedOnGeoZone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="construction-enegineering-tech-challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.construction.engineering.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.construction.engineering.service" />
+      <option name="MAIN_CLASS_NAME" value="com.construction.engineering.service.ConstructionEngineeringReportServiceTest" />
+      <option name="METHOD_NAME" value="testGetCustomerBasedOnGeoZone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructionEngineeringServiceTest.testGetEntities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="construction-enegineering-tech-challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.construction.engineering.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.construction.engineering.service" />
+      <option name="MAIN_CLASS_NAME" value="com.construction.engineering.service.ConstructionEngineeringServiceTest" />
+      <option name="METHOD_NAME" value="testGetEntities" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConstructionEngineeringServiceTest.testGetEntities" />
+        <item itemvalue="JUnit.ConstructionEngineeringReportServiceTest.testGetCustomerBasedOnGeoZone" />
+        <item itemvalue="JUnit.ConstructionEngineeringReportServiceTest.testGetCustomerBasedOnContractId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e572e281-cdc2-4a00-8798-2dd8178d2856" name="Changes" comment="" />
+      <created>1722962526479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722962526479</updated>
+    </task>
+    <servers />
+  </component>
+</project>
