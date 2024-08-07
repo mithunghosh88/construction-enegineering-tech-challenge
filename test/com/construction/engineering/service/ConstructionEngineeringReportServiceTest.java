@@ -2,6 +2,7 @@ package com.construction.engineering.service;
 
 import com.construction.engineering.dao.ConstructionEngineeringDAO;
 import com.construction.engineering.dao.ConstructionEngineeringDAOImpl;
+import com.construction.engineering.model.Customer;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -9,6 +10,7 @@ import org.junit.Test;
 import org.junit.internal.runners.JUnit4ClassRunner;
 import org.junit.runner.RunWith;
 
+import java.util.List;
 import java.util.Map;
 
 
@@ -32,15 +34,21 @@ public class ConstructionEngineeringReportServiceTest {
     }
     @Test
     public void testGetCustomerBasedOnGeoZone(){
-
+        Map<String, Long> customers = constructionEngineeringReportService.getCustomerBasedOnGeoZone();
+        Assert.assertNotNull(customers);
+        Assert.assertTrue(!customers.isEmpty());
     }
     @Test
     public void testGetAvgBuildDurationBasedOnGeoZone(){
-
+        Map<String, Double> avgDuration = constructionEngineeringReportService.getAvgBuildDurationBasedOnGeoZone();
+        Assert.assertNotNull(avgDuration);
+        Assert.assertTrue(!avgDuration.isEmpty());
     }
     @Test
     public void testGetCustomerListBasedOnGeoZone(){
-
+        Map<String, List<Customer>> customers = constructionEngineeringReportService.getCustomerListBasedOnGeoZone();
+        Assert.assertNotNull(customers);
+        Assert.assertTrue(!customers.isEmpty());
     }
     @After
     public void cleanUp(){
